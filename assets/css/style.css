@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --ColorBG:  #0C0B0B;
+    --ColorBoxBg:#141313;
+    --CardRight: #046313;
+    --CardCenter: #044A7D;
+    --CardLeft: #7b5800;
+}
+body{
+    background-color: var(--ColorBG);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #c6c6c6;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section .container{
+    width: 50vw;
+    height: 60vh;
+    padding: 1.8rem;
+    background-color: var(--ColorBoxBg);
+    border-radius: 12px;
+    
+}
+
+section .container .content-top{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    
+      
+}
+section .container .content-top .nick-vetor{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container .content-top .nick-vetor img{
+    border-radius: 50%;
+    
+
+}
+section .container .content-top .nick-vetor .nickname{
+    width: 50%;
+    margin-left: .4rem;
+}
+
+section .container .content-top .nick-vetor .nickname h2 a{
+    color: #c6c6c6;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+section .container .content-top .nick-vetor .nickname span{
+    
+}
+section .container .content-top .nick-vetor .vetor-right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+section .container .content-top .nick-vetor .vetor-right span{
+    display: flex;
+    gap: 4px;
+    background-color: hsl(0, 3%, 18%);
+    border-radius: 8px;
+    padding: .4rem;
+    font-size: .8rem;
+}
+section .container .content-top .nick-vetor .nickname span img{
+    
+}
+section .container .content-down{
+    
+}
+section .container .content-down ul{
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .container .content-down {
+    width: 100%;
+}
+
+section .container .content-down .info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+section .container .content-down .info .card{
+    width: 30%;
+    padding: 1rem;
+    text-align: left;
+    font-size: .8rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+}
+
+section .container .content-down .info .one{
+    background-color: var(--CardRight);
+   
+
+}
+section .container .content-down .info .two{
+    background-color: var(--CardCenter);
+    
+
+}
+section .container .content-down .info .three{
+    background-color: var(--CardLeft);
+   
+   
+}
+section .container .content-down .info h3{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+section .container .content-down .info span{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+/* 
+
+Animações
+ 
+*/
+
+.card:hover{
+    color: #fff;
+    box-shadow: 1px 1px 1px 1px 1px #c6c6c6;
+   
+}
+
+/* Media Query */
+
+
+
+
+
+    
+
+
+
+
+

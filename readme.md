@@ -73,4 +73,4 @@ https://bruno-luna.github.io/profile-component/
 
 ### Tablet:
 
-![]()
+![](https://github.com/Bruno-Luna/profile-component/blob/master/assets/screenshot/tablet.png)
